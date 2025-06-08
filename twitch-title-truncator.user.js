@@ -7,6 +7,10 @@
 // @match        https://www.twitch.tv/*
 // @grant        none
 // @license      MIT
+// @downloadURL  https://github.com/ODRise/STwitchT/raw/refs/heads/main/twitch-title-truncator.user.js
+// @updateURL    https://github.com/ODRise/STwitchT/raw/refs/heads/main/twitch-title-truncator.user.js
+// @supportURL   https://github.com/ODRise/STwitchT/issues
+// @homepageURL  https://github.com/ODRise/STwitchT
 // ==/UserScript==
 
 (function() {
