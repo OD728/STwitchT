@@ -30,11 +30,19 @@ You'll need a userscript manager installed in your browser:
 - [Violentmonkey](https://violentmonkey.github.io/) (Chrome, Firefox, Edge)
 
 ### Install the Script
-1. Click on your userscript manager icon in your browser
-2. Select "Create a new script"
-3. Copy and paste the script code
+
+#### Method 1: Direct Installation (Recommended)
+1. **[Click here to install](https://raw.githubusercontent.com/ODRise/STwitchT/main/twitch-title-truncator.user.js)**
+2. Your userscript manager will automatically detect and prompt you to install
+3. Click "Install" in the popup
+4. Navigate to [Twitch.tv](https://www.twitch.tv) - the script will activate automatically!
+
+#### Method 2: Manual Installation
+1. Download or copy the [`twitch-title-truncator.user.js`](./twitch-title-truncator.user.js) file
+2. Open your userscript manager dashboard
+3. Click "Create a new script" or import the file
 4. Save (Ctrl+S or Cmd+S)
-5. Navigate to [Twitch.tv](https://www.twitch.tv) - the script will activate automatically!
+5. Navigate to [Twitch.tv](https://www.twitch.tv)
 
 ## 📝 Usage
 
