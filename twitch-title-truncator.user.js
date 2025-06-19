@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Twitch Title Shortner
+// @name         Twitch Title Shortener
 // @namespace    http://tampermonkey.net/
-// @version      1.0.1
+// @version      1.0.2
 // @description  Automatically shortens long Twitch stream titles with hover preview
 // @author       RM
 // @match        https://www.twitch.tv/*
