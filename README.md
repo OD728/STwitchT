@@ -1,4 +1,4 @@
-# Twitch Title Shorter
+# Twitch Title Shortener
 
 A lightweight userscript that automatically shortens long Twitch stream titles and displays the full title on hover.
 
