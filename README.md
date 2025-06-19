@@ -1,6 +1,6 @@
-# Twitch Title Truncator
+# Twitch Title Shorter
 
-A lightweight userscript that automatically truncates long Twitch stream titles and displays the full title on hover.
+A lightweight userscript that automatically shortens long Twitch stream titles and displays the full title on hover.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -11,9 +11,9 @@ A lightweight userscript that automatically truncates long Twitch stream titles 
 
 Ever been frustrated by impossibly long Twitch stream titles that break layouts or make the interface cluttered? This userscript solves that problem by:
 
-- ✂️ Automatically truncating stream titles to a reasonable length
+- ✂️ Automatically shortens stream titles to a reasonable length
 - 👁️ Showing the full title when you hover over it
-- 🎨 Maintaining Twitch's native dark theme styling
+- 🎨 Maintaining Twitch's styling
 - ⚡ Zero performance impact - pure CSS solution
 - 🔧 Works on all Twitch pages
 
@@ -102,7 +102,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📊 Changelog
 
-### Version 1.0.0 (2024)
+### Version 1.0.1 (2025)
 - Initial release
 - Basic truncation functionality
 - Hover tooltip implementation
