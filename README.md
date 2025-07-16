@@ -2,7 +2,7 @@
 
 A lightweight userscript that automatically shortens long Twitch stream titles and displays the full title on hover.
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0.3-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Tampermonkey](https://img.shields.io/badge/Tampermonkey-compatible-brightgreen.svg)
 ![Greasemonkey](https://img.shields.io/badge/Greasemonkey-compatible-brightgreen.svg)
@@ -31,18 +31,11 @@ You'll need a userscript manager installed in your browser:
 
 ### Install the Script
 
-#### Method 1: Direct Installation (Recommended)
+#### Direct Installation
 1. **[Click here to install](https://github.com/OD728/STwitchT/raw/refs/heads/main/twitch-title-truncator.user.js)**
 2. Your userscript manager will automatically detect and prompt you to install
 3. Click "Install" in the popup
 4. Navigate to [Twitch.tv](https://www.twitch.tv) - the script will activate automatically!
-
-#### Method 2: Manual Installation
-1. Download or copy the [`twitch-title-truncator.user.js`](./twitch-title-truncator.user.js) file
-2. Open your userscript manager dashboard
-3. Click "Create a new script" or import the file
-4. Save (Ctrl+S or Cmd+S)
-5. Navigate to [Twitch.tv](https://www.twitch.tv)
 
 ## 📝 Usage
 
@@ -65,27 +58,6 @@ padding: 5px !important;
 border-radius: 4px !important;
 ```
 
-## 🛠️ Technical Details
-
-- **No JavaScript execution** - Uses pure CSS for maximum performance
-- **Respects Twitch's design** - Maintains original styling and theme
-- **Universal compatibility** - Works on all Twitch pages and layouts
-- **Dynamic content ready** - Handles dynamically loaded stream titles
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-
-### Development
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 🐛 Known Issues
 
 - Titles containing user mentions (@username) may have special styling that needs additional handling
@@ -100,16 +72,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Thanks to the Twitch community for inspiration
 - Built for streamers with creative (and lengthy) title game
 
-## 📊 Changelog
-
-### Version 1.0.1 (2025)
-- Initial release
-- Basic truncation functionality
-- Hover tooltip implementation
-- Twitch dark theme support
-
 ---
 
 **Enjoy cleaner Twitch browsing! 🎮**
-
-If you find this useful, consider giving it a ⭐ on GitHub!
