@@ -32,7 +32,7 @@ You'll need a userscript manager installed in your browser:
 ### Install the Script
 
 #### Method 1: Direct Installation (Recommended)
-1. **[Click here to install](https://github.com/ODRise/STwitchT/raw/refs/heads/main/twitch-title-truncator.user.js)**
+1. **[Click here to install](https://github.com/OD728/STwitchT/raw/refs/heads/main/twitch-title-truncator.user.js)**
 2. Your userscript manager will automatically detect and prompt you to install
 3. Click "Install" in the popup
 4. Navigate to [Twitch.tv](https://www.twitch.tv) - the script will activate automatically!
