@@ -1,16 +1,16 @@
 // ==UserScript==
 // @name         Twitch Title Shortener
 // @namespace    http://tampermonkey.net/
-// @version      1.0.2
+// @version      1.0.3
 // @description  Automatically shortens long Twitch stream titles with hover preview
 // @author       RM
 // @match        https://www.twitch.tv/*
 // @grant        none
 // @license      MIT
-// @downloadURL  https://github.com/ODRise/STwitchT/raw/refs/heads/main/twitch-title-truncator.user.js
-// @updateURL    https://github.com/ODRise/STwitchT/raw/refs/heads/main/twitch-title-truncator.user.js
-// @supportURL   https://github.com/ODRise/STwitchT/issues
-// @homepageURL  https://github.com/ODRise/STwitchT
+// @downloadURL  https://github.com/OD728/STwitchT/raw/refs/heads/main/twitch-title-truncator.user.js
+// @updateURL    https://github.com/OD728/STwitchT/raw/refs/heads/main/twitch-title-truncator.user.js
+// @supportURL   https://github.com/OD728/STwitchT/issues
+// @homepageURL  https://github.com/OD728/STwitchT
 // ==/UserScript==
 
 (function() {
