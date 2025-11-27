@@ -1,77 +1,55 @@
-# Twitch Title Shortener
+# ✂️ Twitch Title Shortener Userscript
 
-A lightweight userscript that automatically shortens long Twitch stream titles and displays the full title on hover.
+A lightweight userscript that automatically shortens overly long Twitch stream titles, preventing layout issues, and displays the full text on hover.
 
 ![Version](https://img.shields.io/badge/version-2.00-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Tampermonkey](https://img.shields.io/badge/Tampermonkey-compatible-brightgreen.svg)
-![Greasemonkey](https://img.shields.io/badge/Greasemonkey-compatible-brightgreen.svg)
-
-## 📋 Description
-
-Ever been frustrated by impossibly long Twitch stream titles that break layouts or make the interface cluttered? This userscript solves that problem by:
-
-- ✂️ Automatically shortens stream titles to a reasonable length
-- 👁️ Showing the full title when you hover over it
-- 🎨 Maintaining Twitch's styling
-- ⚡ Zero performance impact - pure CSS solution
-- 🔧 Works on all Twitch pages
-
-<div align="center">
-  <img src="example.gif" alt="Demo">
-</div>
-
-## 🚀 Installation
-
-### Prerequisites
-You'll need a userscript manager installed in your browser:
-- [Tampermonkey](https://www.tampermonkey.net/) (Chrome, Firefox, Safari, Edge)
-- [Greasemonkey](https://www.greasespot.net/) (Firefox)
-- [Violentmonkey](https://violentmonkey.github.io/) (Chrome, Firefox, Edge)
-
-### Install the Script
-
-#### Direct Installation
-1. **[Click here to install](https://github.com/OD728/STwitchT/raw/refs/heads/main/twitch-title-shortener.user.js)**
-2. Your userscript manager will automatically detect and prompt you to install
-3. Click "Install" in the popup
-4. Navigate to [Twitch.tv](https://www.twitch.tv) - the script will activate automatically!
-
-## 📝 Usage
-
-Once installed, the script works automatically:
-- Long stream titles will be truncated with "..." at the end
-- Hover over any truncated title to see the full text
-- The full title appears in a styled tooltip that matches Twitch's theme
-
-## ⚙️ Customization
-
-You can customize the script by modifying these values:
-
-```css
-/* Change the maximum width before truncation */
-max-width: 400px !important;  /* Default: 400px */
-
-/* Adjust hover tooltip styling */
-background: #18181b !important;  /* Twitch dark background */
-padding: 5px !important;
-border-radius: 4px !important;
-```
-
-## 🐛 Known Issues
-
-- Titles containing user mentions (@username) may have special styling that needs additional handling
-- Very long single words without spaces might overflow
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👏 Acknowledgments
-
-- Thanks to the Twitch community for inspiration
-- Built for streamers with creative (and lengthy) title game
+![Compatibility](https://img.shields.io/badge/Userscript%20Managers-Compatible-brightgreen.svg)
 
 ---
 
-**Enjoy cleaner Twitch browsing! 🎮**
+## ✨ Why Use It?
+
+Long stream titles can clutter the Twitch interface. This script provides a simple, pure CSS solution to enhance focus:
+
+* **Concise Titles**: Titles are truncated to a maximum width (`400px` by default) and end with an ellipsis (`...`).
+* **Hover Preview**: Simply hover over the truncated title to instantly view the full, original text in a clean, Twitch-styled tooltip.
+* **Zero Performance Impact**: Achieved using only CSS, ensuring fast and seamless browsing.
+
+---
+
+## 🚀 Installation
+
+You need a userscript manager installed in your browser: **Tampermonkey**, **Violentmonkey**, **Greasemonkey**, or **Scriptcat**.
+
+### ⚠️ Important MV3 Compatibility Note (Chrome/Edge)
+Google's Manifest V3 (MV3) update introduces restrictions that affect some older userscript managers. If you are using a Chromium-based browser (Chrome, Edge) and encounter issues:
+1.  Ensure you have the latest version of your chosen manager.
+2.  Be aware that some managers (like **Tampermonkey** and **Violentmonkey**) offer **MV3-compatible beta versions** or may require the user to manually enable **Developer Mode** to function correctly.
+3.  **Scriptcat** is known for its strong MV3 support.
+
+The script is active immediately upon installation on all `twitch.tv` pages.
+
+---
+
+## ⚙️ Customization
+
+The truncation width and hover styling are easily adjusted by editing the CSS within the userscript file:
+
+```css
+[data-a-target="stream-title"] {
+  /* Set the max width before truncation occurs */
+  max-width: 400px !important; /* Default: 400px */
+}
+
+[data-a-target="stream-title"]:hover {
+  /* Customize the appearance of the hover tooltip */
+  background: #18181b !important; /* Twitch dark background */
+  padding: 5px !important;
+  border-radius: 4px !important;
+  z-index: 9999 !important;
+}
+🐛 Known Issues
+Titles with special styling (e.g., user mentions @username) might require minor adjustments.
+
+Extremely long words without spaces may cause minor overflow.
