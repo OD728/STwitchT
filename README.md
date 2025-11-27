@@ -2,7 +2,7 @@
 
 A lightweight userscript that automatically shortens long Twitch stream titles and displays the full title on hover.
 
-![Version](https://img.shields.io/badge/version-1.0.3-blue.svg)
+![Version](https://img.shields.io/badge/version-2.00-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Tampermonkey](https://img.shields.io/badge/Tampermonkey-compatible-brightgreen.svg)
 ![Greasemonkey](https://img.shields.io/badge/Greasemonkey-compatible-brightgreen.svg)
@@ -32,7 +32,7 @@ You'll need a userscript manager installed in your browser:
 ### Install the Script
 
 #### Direct Installation
-1. **[Click here to install](https://github.com/OD728/STwitchT/raw/refs/heads/main/twitch-title-truncator.user.js)**
+1. **[Click here to install](https://github.com/OD728/STwitchT/raw/refs/heads/main/twitch-title-shortener.user.js)**
 2. Your userscript manager will automatically detect and prompt you to install
 3. Click "Install" in the popup
 4. Navigate to [Twitch.tv](https://www.twitch.tv) - the script will activate automatically!
