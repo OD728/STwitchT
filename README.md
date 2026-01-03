@@ -8,7 +8,7 @@ A lightweight userscript that automatically shortens overly long Twitch stream t
 
 ---
 
-## ✨ Why Use It?
+## Why Use It?
 
 Long stream titles can clutter the Twitch interface. This script provides a simple, pure CSS solution to enhance focus:
 
@@ -18,11 +18,11 @@ Long stream titles can clutter the Twitch interface. This script provides a simp
 
 ---
 
-## 🚀 Installation
+## Installation
 
 You need a userscript manager installed in your browser: **Tampermonkey**, **Violentmonkey**, **Greasemonkey**, or **Scriptcat**.
 
-### ⚠️ Important MV3 Compatibility Note (Chrome/Edge)
+### Important MV3 Compatibility Note (Chrome/Edge)
 Google's Manifest V3 (MV3) update introduces restrictions that affect some older userscript managers. If you are using a Chromium-based browser (Chrome, Edge) and encounter issues:
 1.  Ensure you have the latest version of your chosen manager.
 2.  Be aware that some managers (like **Tampermonkey** and **Violentmonkey**) offer **MV3-compatible beta versions** or may require the user to manually enable **Developer Mode** to function correctly.
@@ -32,7 +32,7 @@ The script is active immediately upon installation on all `twitch.tv` pages.
 
 ---
 
-## ⚙️ Customization
+## Customization
 
 The truncation width and hover styling are easily adjusted by editing the CSS within the userscript file:
 
