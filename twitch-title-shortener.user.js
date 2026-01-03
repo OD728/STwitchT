@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Twitch Title Shortener
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/OD728
 // @version      2.00
 // @description  Automatically shortens long Twitch stream titles with hover preview
 // @author       RM
@@ -40,3 +40,4 @@
   `;
   document.head.appendChild(style);
 })();
+
