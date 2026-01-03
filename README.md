@@ -16,6 +16,7 @@ Long stream titles can clutter the Twitch interface. This script provides a simp
 * **Hover Preview**: Simply hover over the truncated title to instantly view the full, original text in a clean, Twitch-styled tooltip.
 * **Zero Performance Impact**: Achieved using only CSS, ensuring fast and seamless browsing.
 
+![](https://raw.githubusercontent.com/OD728/STwitchT/refs/heads/main/example.gif)
 ---
 
 ## Installation
