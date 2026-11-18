@@ -1,16 +1,17 @@
 // ==UserScript==
 // @name         Twitch Title Shortener
 // @namespace    https://github.com/OD728
-// @version      2.03
+// @version      2.04
 // @description  Automatically shortens long Twitch stream titles with hover preview
-// @author       RM
+// @author       OD728
+// @license      MIT
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=twitch.tv
 // @match        https://www.twitch.tv/*
 // @grant        none
-// @license      MIT
+// @homepageURL  https://github.com/OD728/STwitchT
+// @supportURL   https://github.com/OD728/STwitchT/issues
 // @downloadURL  https://github.com/OD728/STwitchT/raw/refs/heads/main/twitch-title-shortener.user.js
 // @updateURL    https://github.com/OD728/STwitchT/raw/refs/heads/main/twitch-title-shortener.user.js
-// @supportURL   https://github.com/OD728/STwitchT/issues
-// @homepageURL  https://github.com/OD728/STwitchT
 // ==/UserScript==
 
 (function() {
