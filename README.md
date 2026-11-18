@@ -31,18 +31,20 @@ Chromium-based browsers need an extra permission for userscript managers (Manife
 
 ## Customization
 
-Adjust truncation width and hover styling by editing the CSS within the script:
+Adjust truncation width and hover styling by editing the CSS within the script. `${TITLE}` stands for the stream title selector:
 
 ```css
-[data-a-target="stream-title"] {
+${TITLE} {
   max-width: 400px !important; /* Default truncation width */
 }
 
-[data-a-target="stream-title"]:hover {
+${TITLE}:hover {
   background: var(--color-background-base, #18181b) !important; /* Twitch's theme color */
   z-index: 9999 !important;
 }
 ```
+
+The selector is written twice on purpose (`[data-a-target="stream-title"][data-a-target="stream-title"]`). Twitch sets `white-space: normal !important` on the title itself, and the doubled selector is what lets the script override it.
 
 Note: if you edit the installed script, an automatic update will replace your changes. Turn off update checks for the script in your userscript manager to keep them.
 
