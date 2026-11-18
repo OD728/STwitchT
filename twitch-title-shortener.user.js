@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Twitch Title Shortener
 // @namespace    https://github.com/OD728
-// @version      2.01
+// @version      2.02
 // @description  Automatically shortens long Twitch stream titles with hover preview
 // @author       RM
 // @match        https://www.twitch.tv/*
@@ -29,6 +29,17 @@
       padding: 5px !important;
       margin: -5px !important;
       border-radius: 4px !important;
+    }
+
+    /* Some titles contain inner elements (e.g. around !commands) with their
+       own wrapping style. Keep them on one line too, so the "…" works. */
+    [data-a-target="stream-title"] * {
+      white-space: nowrap !important;
+      display: inline !important;
+    }
+
+    [data-a-target="stream-title"]:hover * {
+      white-space: normal !important;
     }
 
     [data-a-target="stream-title"]:hover {
