@@ -1,6 +1,6 @@
 # Twitch Title Shortener Userscript
 
-This lightweight userscript automatically shortens long Twitch stream titles to prevent layout issues and displays the full text on hover.
+**Twitch userscript:** this lightweight userscript automatically shortens long Twitch stream titles to prevent layout issues and displays the full text on hover.
 
 ## Key Features
 
